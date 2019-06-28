@@ -1,0 +1,103 @@
+[
+  "@Ocean",
+  {
+    "color": "#000000",
+    "name": "black"
+  },
+  {
+    "color": "#1B2B34",
+    "name": "ocean_dark"
+  },
+  {
+    "color": "#273942",
+    "name": "ocean"
+  },
+  {
+    "color": "#607d8b",
+    "name": "ocean_light"
+  },
+  {
+    "color": "#263238",
+    "name": "ocean_grey"
+  },
+  {
+    "color": "#4E5D65",
+    "name": "grey"
+  },
+  {
+    "color": "#AFBDC4",
+    "name": "light_grey"
+  },
+  {
+    "color": "#D8DEE9",
+    "name": "off_white"
+  },
+  {
+    "color": "#F7F7F7",
+    "name": "white"
+  },
+  {
+    "color": "#EC5f67",
+    "name": "red"
+  },
+  {
+    "color": "#F98757",
+    "name": "light_red"
+  },
+  {
+    "color": "#F9AE58",
+    "name": "orange"
+  },
+  {
+    "color": "#FAC863",
+    "name": "yellow"
+  },
+  {
+    "color": "#99C794",
+    "name": "green"
+  },
+  {
+    "color": "#80CBC4",
+    "name": "light_sea_green"
+  },
+  {
+    "color": "#5FB3B3",
+    "name": "sea_green"
+  },
+  {
+    "color": "#6699CC",
+    "name": "blue"
+  },
+  {
+    "color": "#C695C6",
+    "name": "magenta"
+  },
+  {
+    "color": "#00000000",
+    "name": "transparent"
+  },
+  {
+    "color": "#42A5F5",
+    "name": "bright_blue"
+  },
+  {
+    "color": "#FF443E",
+    "name": "bright_red"
+  },
+  {
+    "color": "#00ACA2",
+    "name": "bright_sea_green"
+  },
+  {
+    "color": "#D81B60",
+    "name": "bright_magenta"
+  },
+  {
+    "color": "#CDDC39",
+    "name": "bright_green"
+  },
+  {
+    "color": "#FFC135",
+    "name": "bright_yellow"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "name": "ocean-theme",
+  "displayName": "Ocean Theme",
+  "description": "Ocean theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "publisher": "nksaraf",
+  "categories": [
+    "Themes"
+  ],
+  "nodemonConfig": {
+    "watch": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "vscode": "nodemon --exec babel-node src/vscode.js",
+    "sublime": "nodemon --exec babel-node src/sublime.js"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ocean Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ocean Theme-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.19.1"
+  }
+}

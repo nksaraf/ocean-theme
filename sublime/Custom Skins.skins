@@ -1,0 +1,40 @@
+{
+    "Ocean Skin": {
+        // Packages/User/Preferences.sublime-settings
+        "Preferences": {
+            "font_face": "Roboto Mono",
+            "font_size": 12,
+            "theme": "Custom Theme.sublime-theme",
+            "color_scheme": "Ocean Color Scheme.sublime-color-scheme",
+            "translate_tabs_to_spaces": true
+        },
+        // Packages/User/SublimeLinter.sublime-settings
+        "SublimeLinter": {
+            "user": {
+                // ...
+            }
+        },
+        "Javascript (Babel)": {
+            "extensions":
+            [
+                "js",
+                "jsx"
+            ],
+            "tab_size": 2
+        },
+        "JSON": {
+            "tab_size": 2
+        },
+        "TypeScript": {
+            "extensions":
+            [
+                "ts",
+                "tsx"
+            ],
+            "tab_size": 2
+        },
+        "GitGutter": {
+            "show_line_annotation": "false"
+        }
+    }
+}
