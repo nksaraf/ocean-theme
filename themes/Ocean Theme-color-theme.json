@@ -37,17 +37,18 @@
     "activityBar.dropBackground": "#607d8b30",
     "activityBar.foreground": "#F7F7F7",
     "activityBar.inactiveForeground": "#607d8b",
-    "activityBar.border": "#1B2B34",
+    "activityBar.border": "#80CBC430",
     "activityBarBadge.background": "#80CBC4",
     "activityBarBadge.foreground": "#000000",
+    "activityBar.activeBorder": "#80CBC4",
     "sideBar.background": "#1B2B34",
     "sideBar.foreground": "#607d8b",
-    "sideBar.border": "#1B2B34",
+    "sideBar.border": "#80CBC430",
     "sideBar.dropBackground": "#1B2B3430",
     "sideBarTitle.foreground": "#D8DEE9",
     "sideBarSectionHeader.background": "#1B2B34",
     "sideBarSectionHeader.foreground": "#D8DEE9",
-    "sideBarSectionHeader.border": "#1B2B34",
+    "sideBarSectionHeader.border": "#80CBC430",
     "editorGroup.border": "#1B2B3430",
     "editorGroupHeader.tabsBackground": "#1B2B34",
     "editorGroupHeader.noTabsBackground": "#1B2B34",
@@ -114,14 +115,14 @@
     "editorWidget.border": "#1B2B34",
     "editorWidget.resizeBorder": "#80CBC4",
     "panel.background": "#1B2B34",
-    "panel.border": "#1B2B34",
+    "panel.border": "#80CBC430",
     "panel.dropBackground": "#1B2B3470",
-    "panelTitle.activeBorder": "#1B2B34",
+    "panelTitle.activeBorder": "#80CBC4",
     "panelTitle.activeForeground": "#F7F7F7",
     "panelTitle.inactiveForeground": "#607d8b",
     "statusBar.background": "#1B2B34",
     "statusBar.foreground": "#607d8b",
-    "statusBar.border": "#1B2B34",
+    "statusBar.border": "#80CBC430",
     "statusBar.debuggingBackground": "#80CBC4",
     "statusBar.debuggingForeground": "#000000",
     "statusBar.debuggingBorder": "#80CBC4",
@@ -148,7 +149,7 @@
     "extensionButton.prominentBackground": "#000000",
     "extensionButton.prominentHoverBackground": "#6699CC",
     "terminal.background": "#1B2B34",
-    "terminal.border": "#1B2B34",
+    "terminal.border": "#80CBC430",
     "terminal.foreground": "#D8DEE9",
     "terminal.ansiBlack": "#4E5D65",
     "terminal.ansiBlue": "#6699CC",
@@ -202,13 +203,6 @@
     {
       "name": "comment",
       "scope": "comment",
-      "settings": {
-        "foreground": "#4E5D65"
-      }
-    },
-    {
-      "name": "punctuation.definition.comment",
-      "scope": "punctuation.definition.comment",
       "settings": {
         "foreground": "#4E5D65"
       }
@@ -349,6 +343,13 @@
       "scope": "punctuation.separator",
       "settings": {
         "foreground": "#F98757"
+      }
+    },
+    {
+      "name": "punctuation.definition.comment",
+      "scope": "punctuation.definition.comment",
+      "settings": {
+        "foreground": "#4E5D65"
       }
     },
     {
@@ -524,6 +525,13 @@
       "scope": "variable.other",
       "settings": {
         "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "variable.other.constant.property",
+      "scope": "variable.other.constant.property",
+      "settings": {
+        "foreground": "#99C794"
       }
     },
     {

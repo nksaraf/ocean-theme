@@ -65,6 +65,10 @@
     "name": "sea_green"
   },
   {
+    "color": "#80CBC430",
+    "name": "border"
+  },
+  {
     "color": "#6699CC",
     "name": "blue"
   },

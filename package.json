@@ -2,11 +2,15 @@
   "name": "ocean-theme",
   "displayName": "Ocean Theme",
   "description": "Ocean theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nksaraf/ocean-theme.git"
+  },
   "engines": {
     "vscode": "^1.35.0"
   },
-  "publisher": "nksaraf",
+  "publisher": "nsaraf98",
   "categories": [
     "Themes"
   ],
@@ -17,7 +21,8 @@
   },
   "scripts": {
     "vscode": "nodemon --exec babel-node src/vscode.js",
-    "sublime": "nodemon --exec babel-node src/sublime.js"
+    "sublime": "nodemon --exec babel-node src/sublime.js",
+    "local:install": "ln -s "
   },
   "contributes": {
     "themes": [
@@ -35,5 +40,10 @@
     "@babel/preset-env": "^7.4.5",
     "lodash": "^4.17.11",
     "nodemon": "^1.19.1"
+  },
+  "__metadata": {
+    "id": "7ef9aadb-b642-4b91-b135-9d7a11bd1f0e",
+    "publisherDisplayName": "nksaraf",
+    "publisherId": "d7f07d82-edd9-427b-ad3e-f9bff515502f"
   }
 }
