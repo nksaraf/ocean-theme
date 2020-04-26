@@ -1,3 +1,3 @@
 # 🌊 Ocean Theme
 
-![vs-code example]("./../examples/vscode.png)
+<img src="https://github.com/nksaraf/ocean-theme/blob/master/examples/vscode.png" width="450">
