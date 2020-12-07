@@ -22,7 +22,7 @@
   "scripts": {
     "vscode": "nodemon --exec babel-node src/vscode.js",
     "sublime": "nodemon --exec babel-node src/sublime.js",
-    "local:install": "ln -s "
+    "local:install": "ln -s ../ocean-theme ~/.vscode-insiders/extensions/ocean-theme"
   },
   "contributes": {
     "themes": [
